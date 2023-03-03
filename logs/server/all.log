@@ -1,0 +1,734 @@
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T06:21:22.444Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T06:21:22.512Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T06:25:19.039Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T06:25:19.097Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T06:39:04.028Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T06:39:04.066Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T06:42:01.813Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T06:42:01.855Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T06:46:44.395Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T06:46:44.432Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T08:22:53.578Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T08:22:53.609Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T09:08:27.649Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T09:08:27.739Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T09:11:55.228Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T09:11:55.271Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'code')
+    at add (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\src\controllers\/cart.controller.js:5:19)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\src\middlewares\/auth.middleware.js:28:5)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:201:9)
+    at invokeCallback (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:538:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1345:12) 
+    url - /api/v1/cart/6214803b05253301a4fda584 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-03T09:13:15.995Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T09:16:19.332Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T09:16:19.367Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'code')
+    at add (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\src\controllers\/cart.controller.js:5:19)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\src\middlewares\/auth.middleware.js:28:5)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:201:9)
+    at invokeCallback (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:538:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1345:12) 
+    url - /api/v1/cart/6214803b05253301a4fda584 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-03T09:16:24.008Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T09:17:37.634Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T09:17:37.665Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'code')
+    at add (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\src\controllers\/cart.controller.js:5:19)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\src\middlewares\/auth.middleware.js:28:5)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:201:9)
+    at invokeCallback (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:538:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1345:12) 
+    url - /api/v1/cart/6214803b05253301a4fda584 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-03T09:17:49.880Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T09:30:23.487Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T09:30:23.536Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T09:41:09.887Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T09:41:09.934Z"}
+error: 
+    status - 500 
+    message - TypeError: _cart2.default.find is not a function
+    at Object.add (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\src\services\/cart.service.js:10:26)
+    at add (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\src\controllers\/cart.controller.js:4:28)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\src\middlewares\/auth.middleware.js:28:5)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:201:9)
+    at invokeCallback (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:538:35)
+    at IncomingMessage.emit (node:domain:475:12) 
+    url - /api/v1/cart/6214803b05253301a4fda584 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-03T09:41:21.523Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T09:43:26.863Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T09:43:26.918Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T09:43:43.336Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T09:43:43.370Z"}
+error: 
+    status - 500 
+    message - TypeError: _cart2.default.find is not a function
+    at Object.add (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\src\services\/cart.service.js:10:21)
+    at add (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\src\controllers\/cart.controller.js:4:28)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\src\middlewares\/auth.middleware.js:28:5)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:201:9)
+    at invokeCallback (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:538:35)
+    at IncomingMessage.emit (node:domain:475:12) 
+    url - /api/v1/cart/6214803b05253301a4fda584 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-03T09:43:49.512Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T09:47:30.067Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T09:47:30.156Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T09:48:54.878Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T09:48:54.920Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T09:51:09.686Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T09:51:09.743Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T09:51:29.886Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T09:51:29.916Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T09:51:55.887Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T09:51:55.935Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T10:34:31.282Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T10:34:31.373Z"}
+error: uncaughtException: The positional operator did not find the match needed from the query.
+MongoError: The positional operator did not find the match needed from the query.
+    at Function.create (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\mongodb\lib\core\error.js:59:12)
+    at toError (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\mongodb\lib\utils.js:130:22)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\mongodb\lib\operations\common_functions.js:384:39
+    at handler (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\mongodb\lib\core\sdam\topology.js:961:24)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\mongodb\lib\cmap\connection_pool.js:352:13
+    at handleOperationResult (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\mongodb\lib\core\sdam\server.js:567:5)
+    at MessageStream.messageHandler (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\mongodb\lib\cmap\connection.js:308:5)
+    at MessageStream.emit (node:events:526:28)
+    at MessageStream.emit (node:domain:475:12)
+    at processIncomingData (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\mongodb\lib\cmap\message_stream.js:144:12)
+    at MessageStream._write (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\mongodb\lib\cmap\message_stream.js:42:5)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:334:10)
+    at Socket.ondata (node:internal/streams/readable:754:22)
+    at Socket.emit (node:events:526:28)
+    at Socket.emit (node:domain:475:12)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {"date":"Fri Mar 03 2023 16:04:37 GMT+0530 (India Standard Time)","error":{"code":2,"driver":true,"index":0,"name":"MongoError"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":156829},"process":{"argv":["node","C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\src\\index.js"],"cwd":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18514998,"external":24892893,"heapTotal":87052288,"heapUsed":49999344,"rss":118276096},"pid":3216,"uid":null,"version":"v16.14.2"},"stack":"MongoError: The positional operator did not find the match needed from the query.\n    at Function.create (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\core\\error.js:59:12)\n    at toError (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\utils.js:130:22)\n    at C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\operations\\common_functions.js:384:39\n    at handler (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\core\\sdam\\topology.js:961:24)\n    at C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\cmap\\connection_pool.js:352:13\n    at handleOperationResult (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\core\\sdam\\server.js:567:5)\n    at MessageStream.messageHandler (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\cmap\\connection.js:308:5)\n    at MessageStream.emit (node:events:526:28)\n    at MessageStream.emit (node:domain:475:12)\n    at processIncomingData (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:144:12)\n    at MessageStream._write (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:42:5)\n    at writeOrBuffer (node:internal/streams/writable:389:12)\n    at _write (node:internal/streams/writable:330:10)\n    at MessageStream.Writable.write (node:internal/streams/writable:334:10)\n    at Socket.ondata (node:internal/streams/readable:754:22)\n    at Socket.emit (node:events:526:28)\n    at Socket.emit (node:domain:475:12)\n    at addChunk (node:internal/streams/readable:315:12)\n    at readableAddChunk (node:internal/streams/readable:289:9)\n    at Socket.Readable.push (node:internal/streams/readable:228:10)\n    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)","timestamp":"2023-03-03T10:34:37.870Z","trace":[{"column":12,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\core\\error.js","function":"Function.create","line":59,"method":"create","native":false},{"column":22,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\utils.js","function":"toError","line":130,"method":null,"native":false},{"column":39,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\operations\\common_functions.js","function":null,"line":384,"method":null,"native":false},{"column":24,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\core\\sdam\\topology.js","function":"handler","line":961,"method":null,"native":false},{"column":13,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\cmap\\connection_pool.js","function":null,"line":352,"method":null,"native":false},{"column":5,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\core\\sdam\\server.js","function":"handleOperationResult","line":567,"method":null,"native":false},{"column":5,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\cmap\\connection.js","function":"MessageStream.messageHandler","line":308,"method":"messageHandler","native":false},{"column":28,"file":"node:events","function":"MessageStream.emit","line":526,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"MessageStream.emit","line":475,"method":"emit","native":false},{"column":12,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\cmap\\message_stream.js","function":"processIncomingData","line":144,"method":null,"native":false},{"column":5,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\cmap\\message_stream.js","function":"MessageStream._write","line":42,"method":"_write","native":false},{"column":12,"file":"node:internal/streams/writable","function":"writeOrBuffer","line":389,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"_write","line":330,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"MessageStream.Writable.write","line":334,"method":"write","native":false},{"column":22,"file":"node:internal/streams/readable","function":"Socket.ondata","line":754,"method":"ondata","native":false},{"column":28,"file":"node:events","function":"Socket.emit","line":526,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Socket.emit","line":475,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"addChunk","line":315,"method":null,"native":false},{"column":9,"file":"node:internal/streams/readable","function":"readableAddChunk","line":289,"method":null,"native":false},{"column":10,"file":"node:internal/streams/readable","function":"Socket.Readable.push","line":228,"method":"push","native":false},{"column":23,"file":"node:internal/stream_base_commons","function":"TCP.onStreamRead","line":190,"method":"onStreamRead","native":false}]}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T10:37:45.606Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T10:37:45.646Z"}
+error: uncaughtException: The positional operator did not find the match needed from the query.
+MongoError: The positional operator did not find the match needed from the query.
+    at Function.create (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\mongodb\lib\core\error.js:59:12)
+    at toError (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\mongodb\lib\utils.js:130:22)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\mongodb\lib\operations\common_functions.js:384:39
+    at handler (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\mongodb\lib\core\sdam\topology.js:961:24)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\mongodb\lib\cmap\connection_pool.js:352:13
+    at handleOperationResult (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\mongodb\lib\core\sdam\server.js:567:5)
+    at MessageStream.messageHandler (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\mongodb\lib\cmap\connection.js:308:5)
+    at MessageStream.emit (node:events:526:28)
+    at MessageStream.emit (node:domain:475:12)
+    at processIncomingData (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\mongodb\lib\cmap\message_stream.js:144:12)
+    at MessageStream._write (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\mongodb\lib\cmap\message_stream.js:42:5)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:334:10)
+    at Socket.ondata (node:internal/streams/readable:754:22)
+    at Socket.emit (node:events:526:28)
+    at Socket.emit (node:domain:475:12)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {"date":"Fri Mar 03 2023 16:07:49 GMT+0530 (India Standard Time)","error":{"code":2,"driver":true,"index":0,"name":"MongoError"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":157021},"process":{"argv":["node","C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\src\\index.js"],"cwd":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18551423,"external":30858895,"heapTotal":86790144,"heapUsed":55460040,"rss":120045568},"pid":18324,"uid":null,"version":"v16.14.2"},"stack":"MongoError: The positional operator did not find the match needed from the query.\n    at Function.create (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\core\\error.js:59:12)\n    at toError (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\utils.js:130:22)\n    at C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\operations\\common_functions.js:384:39\n    at handler (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\core\\sdam\\topology.js:961:24)\n    at C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\cmap\\connection_pool.js:352:13\n    at handleOperationResult (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\core\\sdam\\server.js:567:5)\n    at MessageStream.messageHandler (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\cmap\\connection.js:308:5)\n    at MessageStream.emit (node:events:526:28)\n    at MessageStream.emit (node:domain:475:12)\n    at processIncomingData (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:144:12)\n    at MessageStream._write (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:42:5)\n    at writeOrBuffer (node:internal/streams/writable:389:12)\n    at _write (node:internal/streams/writable:330:10)\n    at MessageStream.Writable.write (node:internal/streams/writable:334:10)\n    at Socket.ondata (node:internal/streams/readable:754:22)\n    at Socket.emit (node:events:526:28)\n    at Socket.emit (node:domain:475:12)\n    at addChunk (node:internal/streams/readable:315:12)\n    at readableAddChunk (node:internal/streams/readable:289:9)\n    at Socket.Readable.push (node:internal/streams/readable:228:10)\n    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)","timestamp":"2023-03-03T10:37:49.679Z","trace":[{"column":12,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\core\\error.js","function":"Function.create","line":59,"method":"create","native":false},{"column":22,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\utils.js","function":"toError","line":130,"method":null,"native":false},{"column":39,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\operations\\common_functions.js","function":null,"line":384,"method":null,"native":false},{"column":24,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\core\\sdam\\topology.js","function":"handler","line":961,"method":null,"native":false},{"column":13,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\cmap\\connection_pool.js","function":null,"line":352,"method":null,"native":false},{"column":5,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\core\\sdam\\server.js","function":"handleOperationResult","line":567,"method":null,"native":false},{"column":5,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\cmap\\connection.js","function":"MessageStream.messageHandler","line":308,"method":"messageHandler","native":false},{"column":28,"file":"node:events","function":"MessageStream.emit","line":526,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"MessageStream.emit","line":475,"method":"emit","native":false},{"column":12,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\cmap\\message_stream.js","function":"processIncomingData","line":144,"method":null,"native":false},{"column":5,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\cmap\\message_stream.js","function":"MessageStream._write","line":42,"method":"_write","native":false},{"column":12,"file":"node:internal/streams/writable","function":"writeOrBuffer","line":389,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"_write","line":330,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"MessageStream.Writable.write","line":334,"method":"write","native":false},{"column":22,"file":"node:internal/streams/readable","function":"Socket.ondata","line":754,"method":"ondata","native":false},{"column":28,"file":"node:events","function":"Socket.emit","line":526,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Socket.emit","line":475,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"addChunk","line":315,"method":null,"native":false},{"column":9,"file":"node:internal/streams/readable","function":"readableAddChunk","line":289,"method":null,"native":false},{"column":10,"file":"node:internal/streams/readable","function":"Socket.Readable.push","line":228,"method":"push","native":false},{"column":23,"file":"node:internal/stream_base_commons","function":"TCP.onStreamRead","line":190,"method":"onStreamRead","native":false}]}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T10:38:14.599Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T10:38:14.631Z"}
+error: uncaughtException: The positional operator did not find the match needed from the query.
+MongoError: The positional operator did not find the match needed from the query.
+    at Function.create (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\mongodb\lib\core\error.js:59:12)
+    at toError (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\mongodb\lib\utils.js:130:22)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\mongodb\lib\operations\common_functions.js:384:39
+    at handler (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\mongodb\lib\core\sdam\topology.js:961:24)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\mongodb\lib\cmap\connection_pool.js:352:13
+    at handleOperationResult (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\mongodb\lib\core\sdam\server.js:567:5)
+    at MessageStream.messageHandler (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\mongodb\lib\cmap\connection.js:308:5)
+    at MessageStream.emit (node:events:526:28)
+    at MessageStream.emit (node:domain:475:12)
+    at processIncomingData (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\mongodb\lib\cmap\message_stream.js:144:12)
+    at MessageStream._write (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\mongodb\lib\cmap\message_stream.js:42:5)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:334:10)
+    at Socket.ondata (node:internal/streams/readable:754:22)
+    at Socket.emit (node:events:526:28)
+    at Socket.emit (node:domain:475:12)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {"date":"Fri Mar 03 2023 16:08:16 GMT+0530 (India Standard Time)","error":{"code":2,"driver":true,"index":0,"name":"MongoError"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":157048},"process":{"argv":["node","C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\src\\index.js"],"cwd":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19055990,"external":30859232,"heapTotal":86806528,"heapUsed":56728608,"rss":120504320},"pid":15464,"uid":null,"version":"v16.14.2"},"stack":"MongoError: The positional operator did not find the match needed from the query.\n    at Function.create (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\core\\error.js:59:12)\n    at toError (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\utils.js:130:22)\n    at C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\operations\\common_functions.js:384:39\n    at handler (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\core\\sdam\\topology.js:961:24)\n    at C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\cmap\\connection_pool.js:352:13\n    at handleOperationResult (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\core\\sdam\\server.js:567:5)\n    at MessageStream.messageHandler (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\cmap\\connection.js:308:5)\n    at MessageStream.emit (node:events:526:28)\n    at MessageStream.emit (node:domain:475:12)\n    at processIncomingData (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:144:12)\n    at MessageStream._write (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:42:5)\n    at writeOrBuffer (node:internal/streams/writable:389:12)\n    at _write (node:internal/streams/writable:330:10)\n    at MessageStream.Writable.write (node:internal/streams/writable:334:10)\n    at Socket.ondata (node:internal/streams/readable:754:22)\n    at Socket.emit (node:events:526:28)\n    at Socket.emit (node:domain:475:12)\n    at addChunk (node:internal/streams/readable:315:12)\n    at readableAddChunk (node:internal/streams/readable:289:9)\n    at Socket.Readable.push (node:internal/streams/readable:228:10)\n    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)","timestamp":"2023-03-03T10:38:16.811Z","trace":[{"column":12,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\core\\error.js","function":"Function.create","line":59,"method":"create","native":false},{"column":22,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\utils.js","function":"toError","line":130,"method":null,"native":false},{"column":39,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\operations\\common_functions.js","function":null,"line":384,"method":null,"native":false},{"column":24,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\core\\sdam\\topology.js","function":"handler","line":961,"method":null,"native":false},{"column":13,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\cmap\\connection_pool.js","function":null,"line":352,"method":null,"native":false},{"column":5,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\core\\sdam\\server.js","function":"handleOperationResult","line":567,"method":null,"native":false},{"column":5,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\cmap\\connection.js","function":"MessageStream.messageHandler","line":308,"method":"messageHandler","native":false},{"column":28,"file":"node:events","function":"MessageStream.emit","line":526,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"MessageStream.emit","line":475,"method":"emit","native":false},{"column":12,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\cmap\\message_stream.js","function":"processIncomingData","line":144,"method":null,"native":false},{"column":5,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\cmap\\message_stream.js","function":"MessageStream._write","line":42,"method":"_write","native":false},{"column":12,"file":"node:internal/streams/writable","function":"writeOrBuffer","line":389,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"_write","line":330,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"MessageStream.Writable.write","line":334,"method":"write","native":false},{"column":22,"file":"node:internal/streams/readable","function":"Socket.ondata","line":754,"method":"ondata","native":false},{"column":28,"file":"node:events","function":"Socket.emit","line":526,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Socket.emit","line":475,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"addChunk","line":315,"method":null,"native":false},{"column":9,"file":"node:internal/streams/readable","function":"readableAddChunk","line":289,"method":null,"native":false},{"column":10,"file":"node:internal/streams/readable","function":"Socket.Readable.push","line":228,"method":"push","native":false},{"column":23,"file":"node:internal/stream_base_commons","function":"TCP.onStreamRead","line":190,"method":"onStreamRead","native":false}]}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T10:38:40.356Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T10:38:40.394Z"}
+error: uncaughtException: The positional operator did not find the match needed from the query.
+MongoError: The positional operator did not find the match needed from the query.
+    at Function.create (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\mongodb\lib\core\error.js:59:12)
+    at toError (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\mongodb\lib\utils.js:130:22)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\mongodb\lib\operations\common_functions.js:384:39
+    at handler (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\mongodb\lib\core\sdam\topology.js:961:24)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\mongodb\lib\cmap\connection_pool.js:352:13
+    at handleOperationResult (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\mongodb\lib\core\sdam\server.js:567:5)
+    at MessageStream.messageHandler (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\mongodb\lib\cmap\connection.js:308:5)
+    at MessageStream.emit (node:events:526:28)
+    at MessageStream.emit (node:domain:475:12)
+    at processIncomingData (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\mongodb\lib\cmap\message_stream.js:144:12)
+    at MessageStream._write (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\mongodb\lib\cmap\message_stream.js:42:5)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:334:10)
+    at Socket.ondata (node:internal/streams/readable:754:22)
+    at Socket.emit (node:events:526:28)
+    at Socket.emit (node:domain:475:12)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {"date":"Fri Mar 03 2023 16:08:42 GMT+0530 (India Standard Time)","error":{"code":2,"driver":true,"index":0,"name":"MongoError"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":157074},"process":{"argv":["node","C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\src\\index.js"],"cwd":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18530932,"external":30859234,"heapTotal":86265856,"heapUsed":55622808,"rss":119754752},"pid":17220,"uid":null,"version":"v16.14.2"},"stack":"MongoError: The positional operator did not find the match needed from the query.\n    at Function.create (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\core\\error.js:59:12)\n    at toError (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\utils.js:130:22)\n    at C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\operations\\common_functions.js:384:39\n    at handler (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\core\\sdam\\topology.js:961:24)\n    at C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\cmap\\connection_pool.js:352:13\n    at handleOperationResult (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\core\\sdam\\server.js:567:5)\n    at MessageStream.messageHandler (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\cmap\\connection.js:308:5)\n    at MessageStream.emit (node:events:526:28)\n    at MessageStream.emit (node:domain:475:12)\n    at processIncomingData (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:144:12)\n    at MessageStream._write (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:42:5)\n    at writeOrBuffer (node:internal/streams/writable:389:12)\n    at _write (node:internal/streams/writable:330:10)\n    at MessageStream.Writable.write (node:internal/streams/writable:334:10)\n    at Socket.ondata (node:internal/streams/readable:754:22)\n    at Socket.emit (node:events:526:28)\n    at Socket.emit (node:domain:475:12)\n    at addChunk (node:internal/streams/readable:315:12)\n    at readableAddChunk (node:internal/streams/readable:289:9)\n    at Socket.Readable.push (node:internal/streams/readable:228:10)\n    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)","timestamp":"2023-03-03T10:38:42.599Z","trace":[{"column":12,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\core\\error.js","function":"Function.create","line":59,"method":"create","native":false},{"column":22,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\utils.js","function":"toError","line":130,"method":null,"native":false},{"column":39,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\operations\\common_functions.js","function":null,"line":384,"method":null,"native":false},{"column":24,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\core\\sdam\\topology.js","function":"handler","line":961,"method":null,"native":false},{"column":13,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\cmap\\connection_pool.js","function":null,"line":352,"method":null,"native":false},{"column":5,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\core\\sdam\\server.js","function":"handleOperationResult","line":567,"method":null,"native":false},{"column":5,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\cmap\\connection.js","function":"MessageStream.messageHandler","line":308,"method":"messageHandler","native":false},{"column":28,"file":"node:events","function":"MessageStream.emit","line":526,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"MessageStream.emit","line":475,"method":"emit","native":false},{"column":12,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\cmap\\message_stream.js","function":"processIncomingData","line":144,"method":null,"native":false},{"column":5,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\cmap\\message_stream.js","function":"MessageStream._write","line":42,"method":"_write","native":false},{"column":12,"file":"node:internal/streams/writable","function":"writeOrBuffer","line":389,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"_write","line":330,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"MessageStream.Writable.write","line":334,"method":"write","native":false},{"column":22,"file":"node:internal/streams/readable","function":"Socket.ondata","line":754,"method":"ondata","native":false},{"column":28,"file":"node:events","function":"Socket.emit","line":526,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Socket.emit","line":475,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"addChunk","line":315,"method":null,"native":false},{"column":9,"file":"node:internal/streams/readable","function":"readableAddChunk","line":289,"method":null,"native":false},{"column":10,"file":"node:internal/streams/readable","function":"Socket.Readable.push","line":228,"method":"push","native":false},{"column":23,"file":"node:internal/stream_base_commons","function":"TCP.onStreamRead","line":190,"method":"onStreamRead","native":false}]}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T10:39:23.698Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T10:39:23.739Z"}
+error: uncaughtException: The positional operator did not find the match needed from the query.
+MongoError: The positional operator did not find the match needed from the query.
+    at Function.create (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\mongodb\lib\core\error.js:59:12)
+    at toError (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\mongodb\lib\utils.js:130:22)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\mongodb\lib\operations\common_functions.js:384:39
+    at handler (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\mongodb\lib\core\sdam\topology.js:961:24)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\mongodb\lib\cmap\connection_pool.js:352:13
+    at handleOperationResult (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\mongodb\lib\core\sdam\server.js:567:5)
+    at MessageStream.messageHandler (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\mongodb\lib\cmap\connection.js:308:5)
+    at MessageStream.emit (node:events:526:28)
+    at MessageStream.emit (node:domain:475:12)
+    at processIncomingData (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\mongodb\lib\cmap\message_stream.js:144:12)
+    at MessageStream._write (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\mongodb\lib\cmap\message_stream.js:42:5)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:334:10)
+    at Socket.ondata (node:internal/streams/readable:754:22)
+    at Socket.emit (node:events:526:28)
+    at Socket.emit (node:domain:475:12)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {"date":"Fri Mar 03 2023 16:09:25 GMT+0530 (India Standard Time)","error":{"code":2,"driver":true,"index":0,"name":"MongoError"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":157117},"process":{"argv":["node","C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\src\\index.js"],"cwd":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19373974,"external":30859473,"heapTotal":86020096,"heapUsed":59224336,"rss":120168448},"pid":10508,"uid":null,"version":"v16.14.2"},"stack":"MongoError: The positional operator did not find the match needed from the query.\n    at Function.create (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\core\\error.js:59:12)\n    at toError (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\utils.js:130:22)\n    at C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\operations\\common_functions.js:384:39\n    at handler (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\core\\sdam\\topology.js:961:24)\n    at C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\cmap\\connection_pool.js:352:13\n    at handleOperationResult (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\core\\sdam\\server.js:567:5)\n    at MessageStream.messageHandler (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\cmap\\connection.js:308:5)\n    at MessageStream.emit (node:events:526:28)\n    at MessageStream.emit (node:domain:475:12)\n    at processIncomingData (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:144:12)\n    at MessageStream._write (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:42:5)\n    at writeOrBuffer (node:internal/streams/writable:389:12)\n    at _write (node:internal/streams/writable:330:10)\n    at MessageStream.Writable.write (node:internal/streams/writable:334:10)\n    at Socket.ondata (node:internal/streams/readable:754:22)\n    at Socket.emit (node:events:526:28)\n    at Socket.emit (node:domain:475:12)\n    at addChunk (node:internal/streams/readable:315:12)\n    at readableAddChunk (node:internal/streams/readable:289:9)\n    at Socket.Readable.push (node:internal/streams/readable:228:10)\n    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)","timestamp":"2023-03-03T10:39:25.652Z","trace":[{"column":12,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\core\\error.js","function":"Function.create","line":59,"method":"create","native":false},{"column":22,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\utils.js","function":"toError","line":130,"method":null,"native":false},{"column":39,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\operations\\common_functions.js","function":null,"line":384,"method":null,"native":false},{"column":24,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\core\\sdam\\topology.js","function":"handler","line":961,"method":null,"native":false},{"column":13,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\cmap\\connection_pool.js","function":null,"line":352,"method":null,"native":false},{"column":5,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\core\\sdam\\server.js","function":"handleOperationResult","line":567,"method":null,"native":false},{"column":5,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\cmap\\connection.js","function":"MessageStream.messageHandler","line":308,"method":"messageHandler","native":false},{"column":28,"file":"node:events","function":"MessageStream.emit","line":526,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"MessageStream.emit","line":475,"method":"emit","native":false},{"column":12,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\cmap\\message_stream.js","function":"processIncomingData","line":144,"method":null,"native":false},{"column":5,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\mongodb\\lib\\cmap\\message_stream.js","function":"MessageStream._write","line":42,"method":"_write","native":false},{"column":12,"file":"node:internal/streams/writable","function":"writeOrBuffer","line":389,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"_write","line":330,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"MessageStream.Writable.write","line":334,"method":"write","native":false},{"column":22,"file":"node:internal/streams/readable","function":"Socket.ondata","line":754,"method":"ondata","native":false},{"column":28,"file":"node:events","function":"Socket.emit","line":526,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Socket.emit","line":475,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"addChunk","line":315,"method":null,"native":false},{"column":9,"file":"node:internal/streams/readable","function":"readableAddChunk","line":289,"method":null,"native":false},{"column":10,"file":"node:internal/streams/readable","function":"Socket.Readable.push","line":228,"method":"push","native":false},{"column":23,"file":"node:internal/stream_base_commons","function":"TCP.onStreamRead","line":190,"method":"onStreamRead","native":false}]}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T10:41:40.595Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T10:41:40.632Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T10:44:18.320Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T10:44:18.349Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T10:47:43.484Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T10:47:43.587Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T10:53:34.530Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T10:53:34.568Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T10:55:49.760Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T10:55:49.810Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T11:02:15.191Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T11:02:15.229Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T11:04:58.179Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T11:04:58.220Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T11:06:49.161Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T11:06:49.226Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T11:07:01.912Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T11:07:01.943Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T11:13:29.150Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T11:13:29.221Z"}
+error: uncaughtException: _cart2.default.find(...).pretty is not a function
+TypeError: _cart2.default.find(...).pretty is not a function
+    at _callee$ (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\src\services\/cart.service.js:15:10)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {"date":"Fri Mar 03 2023 16:43:31 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":159163},"process":{"argv":["node","C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\src\\index.js"],"cwd":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18406946,"external":30730844,"heapTotal":86265856,"heapUsed":55201392,"rss":119631872},"pid":17488,"uid":null,"version":"v16.14.2"},"stack":"TypeError: _cart2.default.find(...).pretty is not a function\n    at _callee$ (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\src\\services\\/cart.service.js:15:10)\n    at tryCatch (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","timestamp":"2023-03-03T11:13:31.730Z","trace":[{"column":10,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\src\\services\\/cart.service.js","function":"_callee$","line":15,"method":null,"native":false},{"column":17,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false}]}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T11:13:56.672Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T11:13:56.717Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T11:15:26.143Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T11:15:26.206Z"}
+error: uncaughtException: Cannot read properties of undefined (reading 'code')
+TypeError: Cannot read properties of undefined (reading 'code')
+    at _callee$ (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\src\controllers\/cart.controller.js:5:19)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {"date":"Fri Mar 03 2023 16:45:54 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":159305},"process":{"argv":["node","C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\src\\index.js"],"cwd":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18293889,"external":19871207,"heapTotal":54546432,"heapUsed":48759136,"rss":86331392},"pid":1228,"uid":null,"version":"v16.14.2"},"stack":"TypeError: Cannot read properties of undefined (reading 'code')\n    at _callee$ (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\src\\controllers\\/cart.controller.js:5:19)\n    at tryCatch (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","timestamp":"2023-03-03T11:15:54.464Z","trace":[{"column":19,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\src\\controllers\\/cart.controller.js","function":"_callee$","line":5,"method":null,"native":false},{"column":17,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false}]}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T11:18:07.378Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T11:18:07.426Z"}
+error: uncaughtException: Cannot read properties of undefined (reading 'code')
+TypeError: Cannot read properties of undefined (reading 'code')
+    at _callee$ (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\src\controllers\/cart.controller.js:5:19)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {"date":"Fri Mar 03 2023 16:48:09 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":159441},"process":{"argv":["node","C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\src\\index.js"],"cwd":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19653209,"external":30725910,"heapTotal":84967424,"heapUsed":62841048,"rss":118636544},"pid":8892,"uid":null,"version":"v16.14.2"},"stack":"TypeError: Cannot read properties of undefined (reading 'code')\n    at _callee$ (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\src\\controllers\\/cart.controller.js:5:19)\n    at tryCatch (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","timestamp":"2023-03-03T11:18:09.728Z","trace":[{"column":19,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\src\\controllers\\/cart.controller.js","function":"_callee$","line":5,"method":null,"native":false},{"column":17,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false}]}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T11:19:59.326Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T11:19:59.385Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T11:20:35.607Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T11:20:35.653Z"}
+error: uncaughtException: Cannot read properties of undefined (reading 'code')
+TypeError: Cannot read properties of undefined (reading 'code')
+    at _callee$ (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\src\controllers\/cart.controller.js:5:19)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {"date":"Fri Mar 03 2023 16:50:39 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":159590},"process":{"argv":["node","C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\src\\index.js"],"cwd":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19815832,"external":30725331,"heapTotal":84967424,"heapUsed":62988312,"rss":118943744},"pid":14988,"uid":null,"version":"v16.14.2"},"stack":"TypeError: Cannot read properties of undefined (reading 'code')\n    at _callee$ (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\src\\controllers\\/cart.controller.js:5:19)\n    at tryCatch (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","timestamp":"2023-03-03T11:20:39.061Z","trace":[{"column":19,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\src\\controllers\\/cart.controller.js","function":"_callee$","line":5,"method":null,"native":false},{"column":17,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false}]}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T11:22:53.424Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T11:22:53.465Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T11:46:01.956Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T11:46:03.370Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T12:04:31.347Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T12:04:31.397Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T12:05:48.414Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T12:05:48.480Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T12:06:30.841Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T12:06:30.902Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T12:07:48.676Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T12:07:48.713Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T12:08:06.450Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T12:08:06.503Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T12:08:39.361Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T12:08:39.403Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T12:09:52.562Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T12:09:52.600Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T12:10:14.055Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T12:10:14.111Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T12:11:06.574Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T12:11:06.626Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T12:11:52.894Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T12:11:52.930Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T12:13:44.207Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T12:13:44.258Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T12:16:42.461Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T12:16:42.493Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T12:18:01.737Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T12:18:01.773Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T12:18:25.700Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T12:18:25.728Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T12:20:30.963Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T12:20:31.014Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T12:22:11.347Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T12:22:11.391Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T12:23:38.363Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T12:23:38.407Z"}
+error: uncaughtException: check is not defined
+ReferenceError: check is not defined
+    at _callee$ (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\src\services\/cart.service.js:17:31)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {"date":"Fri Mar 03 2023 17:53:42 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":163373},"process":{"argv":["node","C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\src\\index.js"],"cwd":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18403519,"external":24151884,"heapTotal":86790144,"heapUsed":54957664,"rss":120238080},"pid":3580,"uid":null,"version":"v16.14.2"},"stack":"ReferenceError: check is not defined\n    at _callee$ (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\src\\services\\/cart.service.js:17:31)\n    at tryCatch (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","timestamp":"2023-03-03T12:23:42.054Z","trace":[{"column":31,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\src\\services\\/cart.service.js","function":"_callee$","line":17,"method":null,"native":false},{"column":17,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false}]}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T12:24:09.792Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T12:24:09.836Z"}
+error: uncaughtException: check is not defined
+ReferenceError: check is not defined
+    at _callee$ (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\src\services\/cart.service.js:17:31)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {"date":"Fri Mar 03 2023 17:54:15 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":163406},"process":{"argv":["node","C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\src\\index.js"],"cwd":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18575904,"external":30734689,"heapTotal":87052288,"heapUsed":55058448,"rss":120279040},"pid":7328,"uid":null,"version":"v16.14.2"},"stack":"ReferenceError: check is not defined\n    at _callee$ (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\src\\services\\/cart.service.js:17:31)\n    at tryCatch (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","timestamp":"2023-03-03T12:24:15.283Z","trace":[{"column":31,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\src\\services\\/cart.service.js","function":"_callee$","line":17,"method":null,"native":false},{"column":17,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false}]}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T12:24:46.751Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T12:24:46.798Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T12:27:50.470Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T12:27:50.519Z"}
+error: uncaughtException: Cannot read properties of undefined (reading 'code')
+TypeError: Cannot read properties of undefined (reading 'code')
+    at _callee$ (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\src\controllers\/cart.controller.js:5:19)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {"date":"Fri Mar 03 2023 17:58:08 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":163639},"process":{"argv":["node","C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\src\\index.js"],"cwd":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18445211,"external":30734703,"heapTotal":87052288,"heapUsed":55101256,"rss":120135680},"pid":6124,"uid":null,"version":"v16.14.2"},"stack":"TypeError: Cannot read properties of undefined (reading 'code')\n    at _callee$ (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\src\\controllers\\/cart.controller.js:5:19)\n    at tryCatch (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","timestamp":"2023-03-03T12:28:08.296Z","trace":[{"column":19,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\src\\controllers\\/cart.controller.js","function":"_callee$","line":5,"method":null,"native":false},{"column":17,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false}]}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T12:31:34.131Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T12:31:34.165Z"}
+error: uncaughtException: collection is not defined
+ReferenceError: collection is not defined
+    at _callee$ (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\src\services\/cart.service.js:38:17)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {"date":"Fri Mar 03 2023 18:01:41 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":163852},"process":{"argv":["node","C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\src\\index.js"],"cwd":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19315179,"external":30737877,"heapTotal":86020096,"heapUsed":59332728,"rss":120283136},"pid":4132,"uid":null,"version":"v16.14.2"},"stack":"ReferenceError: collection is not defined\n    at _callee$ (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\src\\services\\/cart.service.js:38:17)\n    at tryCatch (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","timestamp":"2023-03-03T12:31:41.123Z","trace":[{"column":17,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\src\\services\\/cart.service.js","function":"_callee$","line":38,"method":null,"native":false},{"column":17,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false}]}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T12:32:24.209Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T12:32:24.255Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T12:34:44.968Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T12:34:45.030Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T12:37:26.098Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T12:37:26.135Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T12:51:19.493Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T12:51:19.574Z"}
+error: uncaughtException: updated is not defined
+ReferenceError: updated is not defined
+    at _callee$ (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\src\services\/cart.service.js:24:17)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {"date":"Fri Mar 03 2023 18:21:21 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":165033},"process":{"argv":["node","C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\src\\index.js"],"cwd":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19340162,"external":30747511,"heapTotal":86024192,"heapUsed":59860368,"rss":120258560},"pid":7072,"uid":null,"version":"v16.14.2"},"stack":"ReferenceError: updated is not defined\n    at _callee$ (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\src\\services\\/cart.service.js:24:17)\n    at tryCatch (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","timestamp":"2023-03-03T12:51:21.743Z","trace":[{"column":17,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\src\\services\\/cart.service.js","function":"_callee$","line":24,"method":null,"native":false},{"column":17,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false}]}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T12:51:42.242Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T12:51:42.291Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T12:52:02.111Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T12:52:02.152Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T12:52:57.824Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T12:52:57.882Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T14:43:57.463Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T14:43:57.520Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T14:46:59.315Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T14:46:59.349Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T14:47:45.051Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T14:47:45.108Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T14:48:39.599Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T14:48:39.668Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T14:49:12.000Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T14:49:12.064Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T14:49:31.525Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T14:49:31.578Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T14:51:21.573Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T14:51:21.621Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T14:51:52.846Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T14:51:52.897Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T14:52:26.347Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T14:52:26.387Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T14:52:34.644Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T14:52:34.698Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T14:54:08.359Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T14:54:08.393Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T14:55:29.945Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T14:55:30.020Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T15:41:35.868Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T15:41:35.909Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T15:47:58.039Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T15:47:58.111Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T15:49:24.528Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T15:49:24.588Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T15:55:10.696Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T15:55:10.740Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T15:56:30.871Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T15:56:30.908Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T15:56:54.718Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T15:56:54.751Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T15:58:21.887Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T15:58:21.928Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T15:59:32.350Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T15:59:32.398Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T16:00:49.696Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T16:00:49.732Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T16:01:52.764Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T16:01:52.803Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T16:02:33.646Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T16:02:33.686Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T16:03:31.703Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T16:03:31.765Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T16:04:04.222Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T16:04:04.262Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T16:05:30.838Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T16:05:30.896Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T16:14:20.572Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T16:14:20.611Z"}
+error: uncaughtException: obj is not defined
+ReferenceError: obj is not defined
+    at _callee$ (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\src\services\/cart.service.js:24:19)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {"date":"Fri Mar 03 2023 21:44:23 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":177214},"process":{"argv":["node","C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\src\\index.js"],"cwd":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19421519,"external":30757310,"heapTotal":86286336,"heapUsed":61174216,"rss":120938496},"pid":3192,"uid":null,"version":"v16.14.2"},"stack":"ReferenceError: obj is not defined\n    at _callee$ (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\src\\services\\/cart.service.js:24:19)\n    at tryCatch (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","timestamp":"2023-03-03T16:14:23.387Z","trace":[{"column":19,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\src\\services\\/cart.service.js","function":"_callee$","line":24,"method":null,"native":false},{"column":17,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\BookStore-App(User)\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false}]}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T16:15:24.906Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T16:15:24.949Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T16:17:04.315Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T16:17:04.372Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T16:17:29.978Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T16:17:30.019Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T16:20:23.037Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T16:20:23.087Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T16:22:57.218Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T16:22:57.297Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T16:26:52.687Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T16:26:52.741Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T16:27:31.393Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T16:27:31.452Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T16:28:41.945Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T16:28:42.005Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T16:28:53.813Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T16:28:53.862Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T16:29:22.188Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T16:29:22.231Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T16:30:07.771Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T16:30:07.802Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T16:31:14.150Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T16:31:14.196Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T16:32:43.233Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T16:32:43.280Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T16:34:14.456Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T16:34:14.490Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T16:35:17.599Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T16:35:17.651Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T16:40:26.763Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T16:40:26.794Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T16:43:53.817Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T16:43:53.858Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T16:47:04.746Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T16:47:04.789Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T16:49:00.203Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T16:49:00.269Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T16:51:52.210Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T16:51:52.255Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T16:54:49.676Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T16:54:49.737Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T16:57:54.026Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T16:57:54.066Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T17:04:12.509Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T17:04:12.558Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T17:05:08.133Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T17:05:08.178Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T17:06:08.568Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T17:06:08.604Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T17:07:05.536Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T17:07:05.579Z"}

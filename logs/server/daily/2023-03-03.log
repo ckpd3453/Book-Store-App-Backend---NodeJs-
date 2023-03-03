@@ -1,0 +1,529 @@
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T06:21:22.444Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T06:21:22.512Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T06:25:19.039Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T06:25:19.097Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T06:39:04.028Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T06:39:04.066Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T06:42:01.813Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T06:42:01.855Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T06:46:44.395Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T06:46:44.432Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T08:22:53.578Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T08:22:53.609Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T09:08:27.649Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T09:08:27.739Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T09:11:55.228Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T09:11:55.271Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'code')
+    at add (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\src\controllers\/cart.controller.js:5:19)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\src\middlewares\/auth.middleware.js:28:5)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:201:9)
+    at invokeCallback (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:538:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1345:12) 
+    url - /api/v1/cart/6214803b05253301a4fda584 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-03T09:13:15.995Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T09:16:19.332Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T09:16:19.367Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'code')
+    at add (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\src\controllers\/cart.controller.js:5:19)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\src\middlewares\/auth.middleware.js:28:5)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:201:9)
+    at invokeCallback (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:538:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1345:12) 
+    url - /api/v1/cart/6214803b05253301a4fda584 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-03T09:16:24.008Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T09:17:37.634Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T09:17:37.665Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'code')
+    at add (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\src\controllers\/cart.controller.js:5:19)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\src\middlewares\/auth.middleware.js:28:5)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:201:9)
+    at invokeCallback (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:538:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1345:12) 
+    url - /api/v1/cart/6214803b05253301a4fda584 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-03T09:17:49.880Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T09:30:23.487Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T09:30:23.536Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T09:41:09.887Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T09:41:09.934Z"}
+error: 
+    status - 500 
+    message - TypeError: _cart2.default.find is not a function
+    at Object.add (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\src\services\/cart.service.js:10:26)
+    at add (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\src\controllers\/cart.controller.js:4:28)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\src\middlewares\/auth.middleware.js:28:5)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:201:9)
+    at invokeCallback (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:538:35)
+    at IncomingMessage.emit (node:domain:475:12) 
+    url - /api/v1/cart/6214803b05253301a4fda584 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-03T09:41:21.523Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T09:43:26.863Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T09:43:26.918Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T09:43:43.336Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T09:43:43.370Z"}
+error: 
+    status - 500 
+    message - TypeError: _cart2.default.find is not a function
+    at Object.add (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\src\services\/cart.service.js:10:21)
+    at add (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\src\controllers\/cart.controller.js:4:28)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\src\middlewares\/auth.middleware.js:28:5)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:201:9)
+    at invokeCallback (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\SHREEKANT\Desktop\Node_Projects\BookStore-App(User)\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:538:35)
+    at IncomingMessage.emit (node:domain:475:12) 
+    url - /api/v1/cart/6214803b05253301a4fda584 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-03T09:43:49.512Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T09:47:30.067Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T09:47:30.156Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T09:48:54.878Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T09:48:54.920Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T09:51:09.686Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T09:51:09.743Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T09:51:29.886Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T09:51:29.916Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T09:51:55.887Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T09:51:55.935Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T10:34:31.282Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T10:34:31.373Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T10:37:45.606Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T10:37:45.646Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T10:38:14.599Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T10:38:14.631Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T10:38:40.356Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T10:38:40.394Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T10:39:23.698Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T10:39:23.739Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T10:41:40.595Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T10:41:40.632Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T10:44:18.320Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T10:44:18.349Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T10:47:43.484Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T10:47:43.587Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T10:53:34.530Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T10:53:34.568Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T10:55:49.760Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T10:55:49.810Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T11:02:15.191Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T11:02:15.229Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T11:04:58.179Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T11:04:58.220Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T11:06:49.161Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T11:06:49.226Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T11:07:01.912Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T11:07:01.943Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T11:13:29.150Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T11:13:29.221Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T11:13:56.672Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T11:13:56.717Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T11:15:26.143Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T11:15:26.206Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T11:18:07.378Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T11:18:07.426Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T11:19:59.326Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T11:19:59.385Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T11:20:35.607Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T11:20:35.653Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T11:22:53.424Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T11:22:53.465Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T11:46:01.956Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T11:46:03.370Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T12:04:31.347Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T12:04:31.397Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T12:05:48.414Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T12:05:48.480Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T12:06:30.841Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T12:06:30.902Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T12:07:48.676Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T12:07:48.713Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T12:08:06.450Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T12:08:06.503Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T12:08:39.361Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T12:08:39.403Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T12:09:52.562Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T12:09:52.600Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T12:10:14.055Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T12:10:14.111Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T12:11:06.574Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T12:11:06.626Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T12:11:52.894Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T12:11:52.930Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T12:13:44.207Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T12:13:44.258Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T12:16:42.461Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T12:16:42.493Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T12:18:01.737Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T12:18:01.773Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T12:18:25.700Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T12:18:25.728Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T12:20:30.963Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T12:20:31.014Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T12:22:11.347Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T12:22:11.391Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T12:23:38.363Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T12:23:38.407Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T12:24:09.792Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T12:24:09.836Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T12:24:46.751Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T12:24:46.798Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T12:27:50.470Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T12:27:50.519Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T12:31:34.131Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T12:31:34.165Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T12:32:24.209Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T12:32:24.255Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T12:34:44.968Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T12:34:45.030Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T12:37:26.098Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T12:37:26.135Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T12:51:19.493Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T12:51:19.574Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T12:51:42.242Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T12:51:42.291Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T12:52:02.111Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T12:52:02.152Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T12:52:57.824Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T12:52:57.882Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T14:43:57.463Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T14:43:57.520Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T14:46:59.315Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T14:46:59.349Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T14:47:45.051Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T14:47:45.108Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T14:48:39.599Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T14:48:39.668Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T14:49:12.000Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T14:49:12.064Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T14:49:31.525Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T14:49:31.578Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T14:51:21.573Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T14:51:21.621Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T14:51:52.846Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T14:51:52.897Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T14:52:26.347Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T14:52:26.387Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T14:52:34.644Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T14:52:34.698Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T14:54:08.359Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T14:54:08.393Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T14:55:29.945Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T14:55:30.020Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T15:41:35.868Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T15:41:35.909Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T15:47:58.039Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T15:47:58.111Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T15:49:24.528Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T15:49:24.588Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T15:55:10.696Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T15:55:10.740Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T15:56:30.871Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T15:56:30.908Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T15:56:54.718Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T15:56:54.751Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T15:58:21.887Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T15:58:21.928Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T15:59:32.350Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T15:59:32.398Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T16:00:49.696Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T16:00:49.732Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T16:01:52.764Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T16:01:52.803Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T16:02:33.646Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T16:02:33.686Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T16:03:31.703Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T16:03:31.765Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T16:04:04.222Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T16:04:04.262Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T16:05:30.838Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T16:05:30.896Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T16:14:20.572Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T16:14:20.611Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T16:15:24.906Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T16:15:24.949Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T16:17:04.315Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T16:17:04.372Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T16:17:29.978Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T16:17:30.019Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T16:20:23.037Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T16:20:23.087Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T16:22:57.218Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T16:22:57.297Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T16:26:52.687Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T16:26:52.741Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T16:27:31.393Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T16:27:31.452Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T16:28:41.945Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T16:28:42.005Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T16:28:53.813Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T16:28:53.862Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T16:29:22.188Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T16:29:22.231Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T16:30:07.771Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T16:30:07.802Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T16:31:14.150Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T16:31:14.196Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T16:32:43.233Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T16:32:43.280Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T16:34:14.456Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T16:34:14.490Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T16:35:17.599Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T16:35:17.651Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T16:40:26.763Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T16:40:26.794Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T16:43:53.817Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T16:43:53.858Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T16:47:04.746Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T16:47:04.789Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T16:49:00.203Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T16:49:00.269Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T16:51:52.210Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T16:51:52.255Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T16:54:49.676Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T16:54:49.737Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T16:57:54.026Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T16:57:54.066Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T17:04:12.509Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T17:04:12.558Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T17:05:08.133Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T17:05:08.178Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T17:06:08.568Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T17:06:08.604Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-03T17:07:05.536Z"}
+info: Connected to the database. {"timestamp":"2023-03-03T17:07:05.579Z"}
