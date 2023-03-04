@@ -8,3 +8,12 @@ export const add = async (req, res) => {
     message: data.message
   });
 };
+
+export const remove = async (req, res) => {
+  const data = await cartService.remove(req.body.userId, req.params._id);
+  res.status(data.code).json({
+    code: data.code,
+    data: data.data,
+    message: data.message
+  });
+};
