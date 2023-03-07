@@ -2,10 +2,11 @@ import Book from '../models/book.model';
 import Cart from '../models/cart.model';
 import HttpStatus from 'http-status-codes';
 
+var allBooks;
 async function totalAmount(userId) {
   var total = 0;
-  var all = await Cart.find({ userId: userId });
-  await all.map((obj) => {
+  allBooks = await Cart.find({ userId: userId });
+  await allBooks.map((obj) => {
     if (obj.books[0].quantity >= 1) {
       total = total + obj.books[0].price * obj.books[0].quantity;
     } else {
@@ -13,6 +14,10 @@ async function totalAmount(userId) {
     }
   });
   return total;
+}
+
+function totalPrice(price, quantity) {
+  return price * quantity;
 }
 
 export const add = async (bookId, body) => {
@@ -50,7 +55,11 @@ export const add = async (bookId, body) => {
               bookImage: check.books[0].bookImage,
               author: check.books[0].author,
               quantity: check.books[0].quantity + 1,
-              price: check.books[0].price
+              price: check.books[0].price,
+              totalPrice: totalPrice(
+                check.books[0].price,
+                check.books[0].quantity + 1
+              )
             }
           ]
         };
@@ -75,7 +84,8 @@ export const add = async (bookId, body) => {
               bookImage: book.bookImage,
               author: book.author,
               quantity: 1,
-              price: book.price
+              price: book.price,
+              totalPrice: totalPrice(book.price, 1)
             }
           ]
         };
@@ -98,7 +108,8 @@ export const add = async (bookId, body) => {
             bookImage: book.bookImage,
             author: book.author,
             quantity: 1,
-            price: book.price
+            price: book.price,
+            totalPrice: totalPrice(book.price, 1)
           }
         ]
       };
@@ -116,15 +127,11 @@ export const add = async (bookId, body) => {
       message: 'No book exist with this id.'
     };
   }
+
+  var total = await totalAmount(userId);
   var data = {
-    productId: response.data.books[0].productId,
-    description: response.data.books[0].description,
-    bookName: response.data.books[0].bookName,
-    bookImage: response.data.books[0].bookImage,
-    author: response.data.books[0].author,
-    quantity: response.data.books[0].quantity,
-    price: response.data.books[0].price,
-    totalPrice: await totalAmount(userId)
+    products: allBooks,
+    totalPayable: total
   };
   var result = {
     code: response.code,
@@ -158,7 +165,6 @@ export const remove = async (userId, bookId) => {
       //Cart has single book then remove from cart
       if (check.books[0].quantity <= 1) {
         await Cart.findByIdAndDelete(check._id);
-        const cart = await Cart.find();
         response = {
           code: HttpStatus.OK,
           data: 'Book removed from cart',
@@ -177,7 +183,11 @@ export const remove = async (userId, bookId) => {
               bookImage: check.books[0].bookImage,
               author: check.books[0].author,
               quantity: check.books[0].quantity - 1,
-              price: check.books[0].price
+              price: check.books[0].price,
+              totalPrice: totalPrice(
+                check.books[0].price,
+                check.books[0].quantity - 1
+              )
             }
           ]
         };
@@ -210,29 +220,15 @@ export const remove = async (userId, bookId) => {
       message: 'Cart does not exist'
     };
   }
-  var result;
-  if (check.books[0].quantity > 1) {
-    var data = {
-      productId: response.data.books[0].productId,
-      description: response.data.books[0].description,
-      bookName: response.data.books[0].bookName,
-      bookImage: response.data.books[0].bookImage,
-      author: response.data.books[0].author,
-      quantity: response.data.books[0].quantity,
-      price: response.data.books[0].price,
-      totalPrice: await totalAmount(userId)
-    };
-    result = {
-      code: response.code,
-      data: data,
-      message: response.message
-    };
-  } else {
-    result = {
-      code: response.code,
-      data: response.data,
-      message: response.message
-    };
-  }
+  var total = await totalAmount(userId);
+  var data = {
+    products: allBooks,
+    totalPayable: total
+  };
+  var result = {
+    code: response.code,
+    data: data,
+    message: response.message
+  };
   return result;
 };
