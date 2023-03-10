@@ -7,7 +7,7 @@ import * as bookService from '../services/book.service';
  * @param {Object} res
  */
 export const getAll = async (req, res) => {
-  const data = await bookService.getAll();
+  const data = await bookService.getAll(req);
   res.status(data.code).json({
     code: data.code,
     data: data.data,

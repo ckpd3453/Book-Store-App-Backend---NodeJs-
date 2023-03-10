@@ -2,21 +2,36 @@ import Book from '../models/book.model';
 import HttpStatus from 'http-status-codes';
 
 //To Get all books
-export const getAll = async () => {
+export const getAll = async (req) => {
   var response;
-  const data = await Book.find();
-  if (data != null) {
-    response = {
-      code: HttpStatus.OK,
+  const { page = 1, limit = 5 } = req.query;
+  try {
+    const data = await Book.find()
+      .limit(limit * 1)
+      .skip((page - 1) * limit)
+      .exec();
+    const count = await Book.countDocuments();
+    var res = {
       data: data,
-      message: 'Data retrieved Successfully.'
+      totalPages: Math.ceil(count / limit),
+      currentPage: page
     };
-  } else {
-    response = {
-      code: HttpStatus.OK,
-      data: data,
-      message: 'Empty Stack'
-    };
+    if (data != null) {
+      response = {
+        code: HttpStatus.OK,
+        data: res,
+        message: 'Data retrieved Successfully.'
+      };
+    } else {
+      response = {
+        code: HttpStatus.OK,
+        data: data,
+        message: 'Empty Stack'
+      };
+    }
+  } catch (err) {
+    console.error(err);
+    res.status(500).json({ message: 'Server error' });
   }
   return response;
 };
