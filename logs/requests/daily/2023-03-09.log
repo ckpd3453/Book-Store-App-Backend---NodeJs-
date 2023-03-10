@@ -1,0 +1,64 @@
+info: ::1 - - [09/Mar/2023:05:00:54 +0000] "GET /api/v1/books/621588d505253301a4fda5cf HTTP/1.1" 200 379 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [09/Mar/2023:05:42:52 +0000] "GET /api/v1/books/Game%20of%20Thrones HTTP/1.1" 200 371 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [09/Mar/2023:05:43:05 +0000] "GET /api/v1/books/Game%20of%20thrones HTTP/1.1" 200 371 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [09/Mar/2023:05:45:52 +0000] "GET /api/v1/books/Game%20of%20thrones HTTP/1.1" 200 371 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [09/Mar/2023:05:46:08 +0000] "GET /api/v1/books HTTP/1.1" 200 9280 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [09/Mar/2023:05:50:34 +0000] "GET /api/v1/books/Game%20of%20throne HTTP/1.1" 200 371 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [09/Mar/2023:05:50:45 +0000] "GET /api/v1/books/Game%20of HTTP/1.1" 200 371 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [09/Mar/2023:05:50:53 +0000] "GET /api/v1/books/jkdhsj HTTP/1.1" 200 371 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [09/Mar/2023:05:53:10 +0000] "GET /api/v1/books/Game%20of%20thrones HTTP/1.1" 200 371 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [09/Mar/2023:05:53:38 +0000] "GET /api/v1/books/Game%20of%20thrones HTTP/1.1" 200 371 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [09/Mar/2023:05:54:53 +0000] "GET /api/v1/books/Game%20of%20thrones HTTP/1.1" 200 371 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [09/Mar/2023:05:55:01 +0000] "GET /api/v1/books/Game%20of%20throne HTTP/1.1" 400 75 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [09/Mar/2023:06:00:29 +0000] "GET /api/v1/books/Game%20of%20Thrones HTTP/1.1" 200 371 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [09/Mar/2023:06:00:40 +0000] "GET /api/v1/books/RR%20George HTTP/1.1" 200 371 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [09/Mar/2023:06:01:49 +0000] "GET /api/v1/books/RR%20George HTTP/1.1" 200 371 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [09/Mar/2023:06:01:57 +0000] "GET /api/v1/books/Game%20of%20Thrones HTTP/1.1" 200 371 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [09/Mar/2023:06:03:35 +0000] "GET /api/v1/books/search/RR%20George HTTP/1.1" 404 47 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [09/Mar/2023:06:03:43 +0000] "GET /api/v1/books/search/Game%20of%20Thrones HTTP/1.1" 404 47 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [09/Mar/2023:06:04:01 +0000] "GET /api/v1/books/search/Game%20of%20Thrones HTTP/1.1" 200 371 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [09/Mar/2023:06:04:13 +0000] "GET /api/v1/books/search/RR%20George HTTP/1.1" 200 371 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [09/Mar/2023:09:44:24 +0000] "GET /api/v1/books/sort/price HTTP/1.1" 200 9335 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [09/Mar/2023:09:45:44 +0000] "GET /api/v1/books/sort/price HTTP/1.1" 200 9274 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [09/Mar/2023:09:47:17 +0000] "GET /api/v1/books/sort/price HTTP/1.1" 200 9274 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [09/Mar/2023:11:01:36 +0000] "GET /api/v1/books/sort/price HTTP/1.1" 200 9274 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [09/Mar/2023:11:01:50 +0000] "GET /api/v1/books HTTP/1.1" 200 9280 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [09/Mar/2023:11:02:17 +0000] "GET /api/v1/books/sort/arrival HTTP/1.1" 200 9274 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [09/Mar/2023:11:09:34 +0000] "GET /api/v1/books/sort/price HTTP/1.1" 200 9274 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [09/Mar/2023:11:34:35 +0000] "GET /api/v1/books/sort/price HTTP/1.1" 200 9274 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [09/Mar/2023:11:40:20 +0000] "GET /api/v1/books/sort/price/Ascending HTTP/1.1" 200 9274 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [09/Mar/2023:11:40:32 +0000] "GET /api/v1/books/sort/price/Descending HTTP/1.1" 200 9274 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [09/Mar/2023:11:41:00 +0000] "GET /api/v1/books/sort/arrival/Ascending HTTP/1.1" 200 9274 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [09/Mar/2023:11:41:06 +0000] "GET /api/v1/books/sort/arrival/Descending HTTP/1.1" 200 9274 "-" "PostmanRuntime/7.31.1"
+

@@ -32,7 +32,11 @@ const cartSchema = new Schema({
         type: Number
       }
     }
-  ]
+  ],
+  isPurchased: {
+    type: Boolean,
+    default: false
+  }
 });
 
 export default model('Cart', cartSchema);

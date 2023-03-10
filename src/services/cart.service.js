@@ -198,7 +198,7 @@ export const remove = async (userId, bookId) => {
         );
         response = {
           code: HttpStatus.OK,
-          data: updated,
+          data: 'Book Purchased Successfully',
           message: 'Cart updated successfully, One Quantity removed .'
         };
       }
@@ -232,3 +232,89 @@ export const remove = async (userId, bookId) => {
   };
   return result;
 };
+
+export const isPurchased = async (userId, bookId) => {
+  const cart = await Cart.find({ userId: userId });
+  var response;
+  var check;
+  if (cart != null) {
+    cart.filter((x) => {
+      if (x.books[0].productId === bookId) {
+        check = x;
+      } else {
+        check = null;
+      }
+    });
+    if (check != null) {
+      if (check.isPurchased) {
+        response = {
+          code: HttpStatus.BAD_REQUEST,
+          data: 'Book is already purchased',
+          message:
+            'Book is already purchased, If you want to buy again please add book to cart.'
+        };
+      } else {
+        const book = {
+          userId: userId,
+          books: [
+            {
+              productId: bookId,
+              description: check.books[0].description,
+              bookName: check.books[0].bookName,
+              bookImage: check.books[0].bookImage,
+              author: check.books[0].author,
+              quantity: check.books[0].quantity,
+              price: check.books[0].price,
+              totalPrice: totalPrice(
+                check.books[0].price,
+                check.books[0].quantity
+              )
+            }
+          ],
+          isPurchased: true
+        };
+        const purchased = await Cart.findByIdAndUpdate(
+          { _id: check._id },
+          book
+        );
+        response = {
+          code: HttpStatus.OK,
+          data: purchased,
+          message: 'Book Purchased successfully.'
+        };
+      }
+    } else {
+      response = {
+        code: HttpStatus.BAD_REQUEST,
+        data: 'Book Not Available in cart',
+        message: 'Book Not Available in cart.'
+      };
+    }
+  } else {
+    response = {
+      code: HttpStatus.BAD_REQUEST,
+      data: 'Cart not available',
+      message: 'Cart is not available'
+    };
+  }
+  return response;
+};
+
+//  // const cart = {
+//         //   userId: userId,
+//         var books =
+//         {
+//           productId: bookId,
+//           description: book.description,
+//           bookName: book.bookName,
+//           bookImage: book.bookImage,
+//           author: book.author,
+//           quantity: 1,
+//           price: book.price,
+//           totalPrice: totalPrice(book.price, 1)
+//         }
+//     //   ]
+//     // };
+//     cart[0].books.push(book);
+//     // const collection = await Cart.create(cart);
+//     const collection = await Cart.updateOne({userId: userId}, cart)

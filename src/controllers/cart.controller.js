@@ -17,3 +17,13 @@ export const remove = async (req, res) => {
     message: data.message
   });
 };
+
+export const isPurchased = async (req, res) => {
+  console.log(req);
+  const data = await cartService.isPurchased(req.body.userId, req.params._id);
+  res.status(data.code).json({
+    code: data.code,
+    data: data.data,
+    message: data.message
+  });
+};
